@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec62c23-892c-4154-9e6a-719b7368bad2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TriangularClassification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TriangularClassificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FizzBuzzResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzResultsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TriangularClassificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TriangularClassificationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +44,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangularClassificationTest">
-    <configuration name="TriangularClassificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzResultsTest">
+    <configuration name="FizzBuzzResultsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BT_UnitTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangularClassificationTest" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzResultsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangularClassificationTest.triangleTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzResultsTest.FizzBuzzTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BT_UnitTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangularClassificationTest" />
-      <option name="METHOD_NAME" value="triangleTest1" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzResultsTest" />
+      <option name="METHOD_NAME" value="FizzBuzzTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangularClassificationTest.triangleTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TriangularClassificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BT_UnitTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TriangularClassificationTest" />
-      <option name="METHOD_NAME" value="triangleTest2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzResultsTest" />
+        <item itemvalue="JUnit.FizzBuzzResultsTest.FizzBuzzTest1" />
         <item itemvalue="JUnit.TriangularClassificationTest" />
         <item itemvalue="JUnit.TriangularClassificationTest.triangleTest6" />
         <item itemvalue="JUnit.TriangularClassificationTest.triangleTest5" />
-        <item itemvalue="JUnit.TriangularClassificationTest.triangleTest2" />
-        <item itemvalue="JUnit.TriangularClassificationTest.triangleTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592463001124</updated>
       <workItem from="1592463003762" duration="11940000" />
-      <workItem from="1592487134478" duration="2209000" />
+      <workItem from="1592487134478" duration="3679000" />
     </task>
     <servers />
   </component>
@@ -126,22 +126,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="100" width="1166" height="528" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1592472946019" />
-    <state width="1306" height="212" key="GridCell.Tab.0.bottom" timestamp="1592489381379">
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1592490969691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592489381379" />
-    <state width="1306" height="212" key="GridCell.Tab.0.center" timestamp="1592489381379">
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592490969691" />
+    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1592490969691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592489381379" />
-    <state width="1306" height="212" key="GridCell.Tab.0.left" timestamp="1592489381379">
+    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592490969691" />
+    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1592490969691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592489381379" />
-    <state width="1306" height="212" key="GridCell.Tab.0.right" timestamp="1592489381379">
+    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592490969691" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1592490969691">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592489381379" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592490969691" />
     <state width="1313" height="169" key="GridCell.Tab.1.bottom" timestamp="1592475778631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
