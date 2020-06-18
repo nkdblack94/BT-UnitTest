@@ -1,12 +1,14 @@
 public class CalculateTheNextDay {
-    public static int[] Abc(int day, int moth, int year) {
-        int[] arr = new int[3];
+    public static int[] CalculateTheNextDayTest(int day, int moth, int year) {
+        boolean isLeapYear = LeapYearTest(year);
+        int DayMaxMoth = 0;
         switch (moth) {
             case 2:
-                if (day >= 28) {
-                    day = 1;
-                    ++moth;
-                } else ++day;
+                if (isLeapYear) {
+                    DayMaxMoth = 29;
+                } else {
+                    DayMaxMoth = 28;
+        }
                 break;
             case 1:
             case 3:
@@ -15,31 +17,43 @@ public class CalculateTheNextDay {
             case 8:
             case 10:
             case 12:
-                if (day >= 31) {
-                    day = 1;
-                    ++moth;
-                    if (moth > 12){
-                        moth = 1;
-                        ++year;
-                    }
-                } else ++day;
+                DayMaxMoth = 31;
                 break;
             case 4:
             case 6:
             case 9:
             case 11:
-                if (day >= 30) {
-                    day = 1;
-                    ++moth;
-                } else ++day;
+                DayMaxMoth = 30;
                 break;
             default:
-                System.out.println("sai");
         }
-        arr[0] = day;
-        arr[1] = moth;
-        arr[2] = year;
 
-        return arr;
+        if (day == DayMaxMoth){
+            day = 1;
+            if (moth == 12){
+                moth = 1;
+                year += 1;
+            } else {
+                moth += 1;
+            }
+        } else {
+            day += 1;
+        }
+
+        int[] array= {day, moth, year};
+        return array;
+    }
+
+    public static boolean LeapYearTest(int year) {
+        boolean isLeapYear = false;
+        boolean isDivisibleBy4 = year % 4 == 0;
+        boolean isDivisibleBy100 = year % 100 == 0;
+        boolean isDivisibleBy400 = year % 400 == 0;
+        if (year > 0) {
+            if ((isDivisibleBy4 && !isDivisibleBy100) || (isDivisibleBy100 && isDivisibleBy400)) {
+                isLeapYear = true;
+            }
+        }
+        return isLeapYear;
     }
 }
